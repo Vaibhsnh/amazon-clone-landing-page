@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url("/assets/images/amazon_logo.png");
+    background-image: url("assets/images/amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -132,7 +132,7 @@ span {
 }
 
 .hero-section {
-    background-image: url("/assets/images/Hero-image.jpg");
+    background-image: url("assets/images/Hero-image.jpg");
     height: 350px;
     background-size: cover;
     display: flex;
@@ -206,7 +206,7 @@ span {
 }
 
 .item-img_1 {
-    background-image: url("/assets/images/Headset.jpg");
+    background-image: url("assets/images/Headset.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -216,7 +216,7 @@ span {
 }
 
 .item-img_2 {
-    background-image: url("/assets/images/Keyboards.jpg");
+    background-image: url("assets/images/Keyboards.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -227,7 +227,7 @@ span {
 
 
 .item-img_3 {
-    background-image: url("/assets/images/Computer-mice.jpg");
+    background-image: url("assets/images/Computer-mice.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -237,7 +237,7 @@ span {
 }
 
 .item-img_4 {
-    background-image: url("/assets/images/Chairs.jpg");
+    background-image: url("assets/images/Chairs.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -247,7 +247,7 @@ span {
 }
 
 .fashion-img_1 {
-    background-image: url("/assets/images/Jeans.jpg");
+    background-image: url("assets/images/Jeans.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -257,7 +257,7 @@ span {
 }
 
 .fashion-img_2 {
-    background-image: url("/assets/images/Tops.jpg");
+    background-image: url("assets/images/Tops.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -268,7 +268,7 @@ span {
 
 
 .fashion-img_3 {
-    background-image: url("/assets/images/Dresses.jpg");
+    background-image: url("assets/images/Dresses.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -278,7 +278,7 @@ span {
 }
 
 .fashion-img_4 {
-    background-image: url("/assets/images/Shoes.jpg");
+    background-image: url("assets/images/Shoes.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -288,7 +288,7 @@ span {
 }
 
  .space-refreshing-img_1 {
-    background-image: url("/assets/images/Dining.jpg");
+    background-image: url("assets/images/Dining.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -298,7 +298,7 @@ span {
 }
 
 .space-refreshing-img_2 {
-    background-image: url("/assets/images/Home.jpg");
+    background-image: url("assets/images/Home.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -309,7 +309,7 @@ span {
 
 
 .space-refreshing-img_3 {
-    background-image: url("/assets/images/Kitchen.jpg");
+    background-image: url("assets/images/Kitchen.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -319,7 +319,7 @@ span {
 }
 
 .space-refreshing-img_4 {
-    background-image: url("assets/images/Health\ and\ beauty.jpg");
+    background-image: url("assets/images/Health&beauty.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -329,7 +329,7 @@ span {
 }
 
 .fashion-trends-img_1 {
-    background-image: url("/assets/images/Trends-dresses.jpg");
+    background-image: url("assets/images/Trends-dresses.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -350,7 +350,7 @@ span {
 
 
 .fashion-trends-img_3 {
-    background-image: url("/assets/images/Trends-jackets.jpg");
+    background-image: url("assets/images/Trends-jackets.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -360,7 +360,7 @@ span {
 }
 
 .fashion-trends-img_4 {
-    background-image: url("/assets/images/Trends-jewelry.jpg");
+    background-image: url("assets/images/Trends-jewelry.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -370,7 +370,7 @@ span {
 } 
 
 .gift-img_1 {
-    background-image: url("/assets/images/Gift-tech.jpg");
+    background-image: url("assets/images/Gift-tech.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -380,7 +380,7 @@ span {
 }
 
 .gift-img_2 {
-    background-image: url("/assets/images/Gift-adventure_gear.jpg");
+    background-image: url("assets/images/Gift-adventure_gear.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -391,7 +391,7 @@ span {
 
 
 .gift-img_3 {
-    background-image: url("/assets/images/Gift-unique_finds.jpg");
+    background-image: url("assets/images/Gift-unique_finds.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -401,7 +401,7 @@ span {
 }
 
 .gift-img_4 {
-    background-image: url("/assets/images/Gift-health\ &\ wellness.jpg");
+    background-image: url("assets/images/Gift-health&wellness.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -411,7 +411,7 @@ span {
 }
 
 .beauty-img_1 {
-    background-image: url("/assets/images/Beauty-makeup.jpg");
+    background-image: url("assets/images/Beauty-makeup.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -421,7 +421,7 @@ span {
 }
 
 .beauty-img_2 {
-    background-image: url("/assets/images/Beauty-brushes.jpg");
+    background-image: url("assets/images/Beauty-brushes.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -432,7 +432,7 @@ span {
 
 
 .beauty-img_3 {
-    background-image: url("/assets/images/Beauty-sponges.jpg");
+    background-image: url("assets/images/Beauty-sponges.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -442,7 +442,7 @@ span {
 }
 
 .beauty-img_4 {
-    background-image: url("/assets/images/Beauty-mirrors.jpg");
+    background-image: url("assets/images/Beauty-mirrors.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -452,7 +452,7 @@ span {
 }
 
 .curate-img_1 {
-    background-image: url("/assets/images/space-candles.jpg");
+    background-image: url("assets/images/space-candles.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -462,7 +462,7 @@ span {
 }
 
 .curate-img_2 {
-    background-image: url("/assets/images/space-stylish_pillows.jpg");
+    background-image: url("assets/images/space-stylish_pillows.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -473,7 +473,7 @@ span {
 
 
 .curate-img_3 {
-    background-image: url("/assets/images/space-indoor_gardening.jpg");
+    background-image: url("assets/images/space-indoor_gardening.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -483,7 +483,7 @@ span {
 }
 
 .curate-img_4 {
-    background-image: url("/assets/images/space-storage\ &\ organization.jpg");
+    background-image: url("assets/images/space-storage&organization.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -493,7 +493,7 @@ span {
 }
 
 .best-img_1 {
-    background-image: url("/assets/images/best-for_her.jpg");
+    background-image: url("assets/images/best-for_her.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -503,7 +503,7 @@ span {
 }
 
 .best-img_2 {
-    background-image: url("/assets/images/best-for_him.jpg");
+    background-image: url("assets/images/best-for_him.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -514,7 +514,7 @@ span {
 
 
 .best-img_3 {
-    background-image: url("/assets/images/best-for_teens.jpg");
+    background-image: url("assets/images/best-for_teens.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -524,7 +524,7 @@ span {
 }
 
 .best-img_4 {
-    background-image: url("/assets/images/best-for_kids.jpg");
+    background-image: url("assets/images/best-for_kids.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -534,7 +534,7 @@ span {
 }
 
 .gadget-img_1 {
-    background-image: url("/assets/images/Gadget-smartphone.jpg");
+    background-image: url("assets/images/Gadget-smartphone.jpg");
     background-size: cover;
     height: 115px;
     width: 100%;
@@ -544,7 +544,7 @@ span {
 }
 
 .gadget-img_2 {
-    background-image: url("/assets/images/Gadget-tablet.jpg");
+    background-image: url("assets/images/Gadget-tablet.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -555,7 +555,7 @@ span {
 
 
 .gadget-img_3 {
-    background-image: url("/assets/images/Gadget-laptop.jpg");
+    background-image: url("assets/images/Gadget-laptop.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -566,7 +566,7 @@ span {
 }
 
 .gadget-img_4 {
-    background-image: url("/assets/images/Gadget-tv.jpg");
+    background-image: url("assets/images/Gadget-tv.jpg");
     background-size: cover;
     height: 115px;
     width: 185px;
@@ -584,7 +584,7 @@ span {
 }
 
 .shoes-img {
-    background-image: url("/assets/images/deals-shoes.jpg");
+    background-image: url("assets/images/deals-shoes.jpg");
     background-size: cover;
     height: 275px;
     width: 315px;
@@ -593,7 +593,7 @@ span {
 }
 
 .business-img {
-    background-image: url("/assets/images/business-solutions.jpg");
+    background-image: url("assets/images/business-solutions.jpg");
     background-size: cover;
     height: 245px;
     width: 315px;
@@ -603,7 +603,7 @@ span {
 
 
 .smartwatch-img {
-    background-image: url("/assets/images/Activity-smartwatch.jpg");
+    background-image: url("assets/images/Activity-smartwatch.jpg");
     background-size: cover;
     height: 275px;
     width: 315px;
@@ -670,7 +670,7 @@ ul a {
 
 
 .foot-amazon-logo {
-    background-image: url("/assets/images/amazon_logo.png");
+    background-image: url("assets/images/amazon_logo.png");
     height: 50px;
     width: 100px;
     background-size: cover;
