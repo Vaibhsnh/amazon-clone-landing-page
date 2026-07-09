@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url("/assets/images/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.delivery {
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+
+.country {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    box-shadow: 0.25px 0.25px 10px #febd68;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+span {
+    font-size: 0.80rem;
+}
+
+.nav-common {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url("/assets/images/Hero-image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+}
+
+.item {
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.sec-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sec-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sec-content a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.sec-content a:hover {
+    color: red;
+}
+
+.first-row {
+    display: flex;
+}
+
+.sec-row {
+    display: flex;
+}
+
+.text {
+    font-size: 0.75rem;
+    margin-top: 115px;
+}
+
+.item-img_1 {
+    background-image: url("/assets/images/Headset.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.item-img_2 {
+    background-image: url("/assets/images/Keyboards.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.item-img_3 {
+    background-image: url("/assets/images/Computer-mice.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.item-img_4 {
+    background-image: url("/assets/images/Chairs.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.fashion-img_1 {
+    background-image: url("/assets/images/Jeans.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.fashion-img_2 {
+    background-image: url("/assets/images/Tops.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.fashion-img_3 {
+    background-image: url("/assets/images/Dresses.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.fashion-img_4 {
+    background-image: url("/assets/images/Shoes.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+ .space-refreshing-img_1 {
+    background-image: url("/assets/images/Dining.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.space-refreshing-img_2 {
+    background-image: url("/assets/images/Home.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.space-refreshing-img_3 {
+    background-image: url("/assets/images/Kitchen.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.space-refreshing-img_4 {
+    background-image: url("assets/images/Health\ and\ beauty.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.fashion-trends-img_1 {
+    background-image: url("/assets/images/Trends-dresses.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.fashion-trends-img_2 {
+    background-image: url("assets/images/Trends-knits.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.fashion-trends-img_3 {
+    background-image: url("/assets/images/Trends-jackets.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.fashion-trends-img_4 {
+    background-image: url("/assets/images/Trends-jewelry.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+} 
+
+.gift-img_1 {
+    background-image: url("/assets/images/Gift-tech.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.gift-img_2 {
+    background-image: url("/assets/images/Gift-adventure_gear.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.gift-img_3 {
+    background-image: url("/assets/images/Gift-unique_finds.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.gift-img_4 {
+    background-image: url("/assets/images/Gift-health\ &\ wellness.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.beauty-img_1 {
+    background-image: url("/assets/images/Beauty-makeup.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.beauty-img_2 {
+    background-image: url("/assets/images/Beauty-brushes.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.beauty-img_3 {
+    background-image: url("/assets/images/Beauty-sponges.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.beauty-img_4 {
+    background-image: url("/assets/images/Beauty-mirrors.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.curate-img_1 {
+    background-image: url("/assets/images/space-candles.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.curate-img_2 {
+    background-image: url("/assets/images/space-stylish_pillows.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.curate-img_3 {
+    background-image: url("/assets/images/space-indoor_gardening.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.curate-img_4 {
+    background-image: url("/assets/images/space-storage\ &\ organization.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.best-img_1 {
+    background-image: url("/assets/images/best-for_her.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.best-img_2 {
+    background-image: url("/assets/images/best-for_him.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+
+.best-img_3 {
+    background-image: url("/assets/images/best-for_teens.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.best-img_4 {
+    background-image: url("/assets/images/best-for_kids.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.gadget-img_1 {
+    background-image: url("/assets/images/Gadget-smartphone.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+.gadget-img_2 {
+    background-image: url("/assets/images/Gadget-tablet.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+}
+
+
+.gadget-img_3 {
+    background-image: url("/assets/images/Gadget-laptop.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.gadget-img_4 {
+    background-image: url("/assets/images/Gadget-tv.jpg");
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5px;
+}
+
+.single-img {
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shoes-img {
+    background-image: url("/assets/images/deals-shoes.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 315px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.business-img {
+    background-image: url("/assets/images/business-solutions.jpg");
+    background-size: cover;
+    height: 245px;
+    width: 315px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.smartwatch-img {
+    background-image: url("/assets/images/Activity-smartwatch.jpg");
+    background-size: cover;
+    height: 275px;
+    width: 315px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+.foot-panel-top {
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+    height: 50px;
+}
+
+.foot-pannel-content p {
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.foot-pannel-content a {
+    text-decoration: none;
+}
+
+.foot-pannel-content a:hover {
+    text-decoration: underline;
+}
+
+
+.foot-pannel-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 450px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel-navs {
+    background-color: #222f3d;
+    border-top: 0.15px solid white;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-amazon-logo {
+    background-image: url("/assets/images/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.panel-nav-pages {
+    background-color: #0f1111;
+    height: 80px;
+    font-size: 0.90rem;
+    text-align: center;
+}
+.pages a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    color: #dddddd;
+    padding-top: 5px;
+}
